@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:wght@300;400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+  cursor: default;
+}
+
+::selection {
+  background-color: #a2ffb2;
+}
+
+body {
+  /* background-color: #F1F5FC; */
+  background-color: #EAFDFC !important;
+}
+
+.btn:focus,
+.btn:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* Website Scrollerbar */
+body::-webkit-scrollbar {
+  width: 5px !important;
+  height: 5px !important;
+}
+
+body::-webkit-scrollbar-track {
+  background: #3838387c !important;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #5a76fd !important;
+  border: 1px solid #ff020279 !important;
+  border-radius: 1px !important;
+}
+
+/* ------------------------------------------------------------------------------- */
+/* .main-div{
+  display: grid;
+  place-items:  center;
+}
+.container-body{
+  border-radius: 6px;
+  width: 80%;
+  padding: 30px;
+  margin: 10px ;
+  background-color: #fff;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+  border: 0.5px solid #a1c9d765;
+}
+.new-div{
+  width: fit-content;
+} */
+
+.scheme {
+  border-radius: 6px;
+  width: 80%;
+  padding: 30px;
+  margin: 10px;
+  background-color: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  border: 0.5px solid #a1c9d765;
+}
+
+#scheme1,
+#scheme2,
+#scheme3,
+#scheme4,
+#scheme5 {
+  display: none !important;
+}
+
+.red-star {
+  color: red;
+}
